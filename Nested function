@@ -1,0 +1,31 @@
+//Nested functions
+function main(){
+    console.log (" I'm Happy!");
+    function innerFunc(){
+        console.log ("Actually, I,m very Happy");
+    }
+    innerFunc(); //Local function
+}
+main();
+
+
+//class work 1
+//Declare a variables and assign to it a prompt from the user
+// use the reponse from the user to say the name.
+//1 create a function call it say my name
+// Declare sayMyName with a parameter value
+//2. create another function inside sayMyName, call it: nestedFunction
+// Declare nestedFunction with a paramenter value as well.
+//3. print out a message containing your name in the nestedFunction that you created.
+
+ var what = window.prompt ('whats your name?');
+ function sayMyName(name){
+    
+    function nestedFunction (what){
+        console.log('welcome ' + what);
+
+    }
+    nestedFunction(name);
+ }
+sayMyName(what);
+
