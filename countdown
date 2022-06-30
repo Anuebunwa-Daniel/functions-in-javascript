@@ -1,0 +1,30 @@
+var dynamic = 10;
+function  countdown(parameter){
+    console.log (parameter);
+    if (parameter < 1){
+        return;
+    }
+    
+    return countdown (parameter - 1)
+    
+    
+
+}
+countdown (dynamic);
+
+var start =10;
+    function countdown2 (par){
+        console.log ( par);
+    
+        while(par > 0) {
+            console.log (par);
+            par--;
+        }
+     
+    
+    }
+    
+    countdown2 (start);
+
+
+
